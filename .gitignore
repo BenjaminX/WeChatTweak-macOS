@@ -105,12 +105,13 @@ playground.xcworkspace
 Pods/
 
 # Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+*.xcworkspace
+Podfile.lock
 
 # Carthage
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+Carthage/Checkouts
 
 Carthage/Build
 
@@ -137,4 +138,6 @@ iOSInjectionProject/
 #
 # Bundler gems
 
+Gemfile.lock
 Gems/
+
